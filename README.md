@@ -1,20 +1,20 @@
-#### Shiemi
+#### shiemi
 
-<sub>A character-based language model trained on Blue Exorcist data.
+<sub>A character-based language model trained on Blue Exorcist data.</sub>
 
 <img src="anime.gif" alt="Anime Demo" width="500"/>
 
-▲ Coming Soon: Support for all anime series, not just Blue Exorcist!  
+<sub>▲ Coming Soon: Support for all anime series, not just Blue Exorcist!  
 ► Website (Coming Soon): https://shiemi.com  
-► For sponsorship inquiries: josh@afterima.ge
+► For sponsorship inquiries: josh@afterima.ge</sub>
 
 ##### Overview
 
-Shiemi is a transformer-based language model designed to generate text in the style of Blue Exorcist characters. Built with PyTorch and trained on dialogue and descriptions from the series.
+<sub>Shiemi is a transformer-based language model designed to generate text in the style of Blue Exorcist characters. Built with PyTorch and trained on dialogue and descriptions from the series.</sub>
 
 ##### Features
 
-· Transformer architecture with:
+<sub>· Transformer architecture with:
   └─ 8 layers
   └─ 8 attention heads
   └─ 512 model dimensions
@@ -23,9 +23,10 @@ Shiemi is a transformer-based language model designed to generate text in the st
 · Character-based generation  
 · Interactive chat interface  
 · Efficient tokenization with SentencePiece  
-· Mixed precision training support
+· Mixed precision training support</sub>
 
 ##### Installation
+
 ```bash
 # Clone the repository
 git clone https://github.com/dancer/shiemi.git
@@ -70,12 +71,13 @@ python -m shiemi chat \
 ```
 
 ##### Model Architecture
-```
-Input Text → Tokenizer → Transformer (8 Layers, 8 Heads, 512d) → Generated Text
-```
+
+<sub>Input Text → Tokenizer → Transformer (8 Layers, 8 Heads, 512d) → Generated Text</sub>
 
 ##### Configuration
-Model parameters can be adjusted in `shiemi/config/model_config.py`:
+
+<sub>Model parameters can be adjusted in `shiemi/config/model_config.py`:</sub>
+
 ```python
 n_layers = 8
 n_heads = 8
@@ -86,16 +88,19 @@ max_seq_length = 512
 ```
 
 ##### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+<sub>This project is licensed under the MIT License - see the LICENSE file for details.</sub>
 
 ##### Contributing
-1. Fork the repository
+
+<sub>1. Fork the repository
 2. Create your feature branch
 3. Commit your changes
 4. Push to the branch
-5. Open a Pull Request
+5. Open a Pull Request</sub>
 
 ##### Acknowledgments
-- Built with PyTorch
+
+<sub>- Built with PyTorch
 - Tokenization by SentencePiece
 - Inspired by Blue Exorcist</sub>
