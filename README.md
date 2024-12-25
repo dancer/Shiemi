@@ -1,14 +1,12 @@
-# shiemi
+#### Shiemi
 
-<sub>A character-based language model trained on Blue Exorcist data.</sub>
+<sub>A character-based language model trained on Blue Exorcist data.
 
 <img src="anime.gif" alt="Anime Demo" width="500"/>
 
-<sub>
 ▲ Coming Soon: Support for all anime series, not just Blue Exorcist!  
 ► Website (Coming Soon): https://shiemi.com  
 ► For sponsorship inquiries: josh@afterima.ge
-</sub>
 
 ##### Overview
 
@@ -100,4 +98,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ##### Acknowledgments
 - Built with PyTorch
 - Tokenization by SentencePiece
-- Inspired by Blue Exorcist
+- Inspired by Blue Exorcist</sub>
