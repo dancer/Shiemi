@@ -2,10 +2,11 @@
 
 A character-based language model trained on Blue Exorcist data.
 
-<img src="anime.gif" alt="Anime Demo" width="600"/>
+<img src="anime.gif" alt="Anime Demo" width="500"/>
 
 ▲ Coming Soon: Support for all anime series, not just Blue Exorcist!  
-► Visit us at: https://shiemi.com
+► Website (Coming Soon): https://shiemi.com  
+► For sponsorship inquiries: josh@afterima.ge
 
 #### ▫ Overview
 
