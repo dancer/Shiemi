@@ -1,34 +1,32 @@
-█▀▀ █ █ █ █▀▀ █▄█ █
-▀▀█ █▀█ █ █▀▀ █░█ █
-▀▀▀ ▀░▀ ▀ ▀▀▀ ▀░▀ ▀
+# shiemi
 
 A character-based language model trained on Blue Exorcist data.
 
 <p align="center">
-  <img src="anime.gif" alt="Anime Demo" width="600"/>
+  <img src="anime.gif" alt="Anime Demo" width="500"/>
 </p>
 
-▲ Coming Soon: Support for all anime series, not just Blue Exorcist!
+▲ Coming Soon: Support for all anime series, not just Blue Exorcist!  
 ► Visit us at: https://shiemi.com
 
-## ▀▄▀▄▀ Overview ▀▄▀▄▀
+### ▫ Overview
 
 Shiemi is a transformer-based language model designed to generate text in the style of Blue Exorcist characters. Built with PyTorch and trained on dialogue and descriptions from the series.
 
-## ▄▀▄▀▄ Features ▄▀▄▀▄
+### ▪ Features
 
-█ Transformer architecture with:
+▫ Transformer architecture with:
   └─ 8 layers
   └─ 8 attention heads
   └─ 512 model dimensions
   └─ 4000 vocabulary size
 
-█ Character-based generation
-█ Interactive chat interface
-█ Efficient tokenization with SentencePiece
-█ Mixed precision training support
+▫ Character-based generation  
+▫ Interactive chat interface  
+▫ Efficient tokenization with SentencePiece  
+▫ Mixed precision training support
 
-## ░░░ Installation ░░░
+### ▫ Installation
 
 ```bash
 # Clone the repository
@@ -43,10 +41,9 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## █▄█ Usage █▄█
+### ▪ Usage
 
-### Training the Tokenizer
-
+#### Training the Tokenizer
 ```bash
 python -m shiemi train-tokenizer \
     --input_files data/your_data.txt \
@@ -54,8 +51,7 @@ python -m shiemi train-tokenizer \
     --vocab_size 4000
 ```
 
-### Training the Model
-
+#### Training the Model
 ```bash
 python -m shiemi train \
     --train_files data/your_data.txt \
@@ -65,8 +61,7 @@ python -m shiemi train \
     --num_epochs 50
 ```
 
-### Chat Interface
-
+#### Chat Interface
 ```bash
 python -m shiemi chat \
     --model_path model_output/checkpoint_final.pt \
@@ -76,32 +71,15 @@ python -m shiemi chat \
     --top_p 0.9
 ```
 
-## ▄▄▄ Model Architecture ▄▄▄
+### ▫ Model Architecture
 
 ```
-Input Text
-    │
-    ▼
-┌─────────┐
-│Tokenizer│
-└────┬────┘
-     │
-     ▼
-┌─────────────┐
-│Transformer  │
-│  8 Layers   │
-│  8 Heads    │
-│  512d Model │
-└─────┬───────┘
-      │
-      ▼
- Generated Text
+Input Text → Tokenizer → Transformer (8 Layers, 8 Heads, 512d) → Generated Text
 ```
 
-## ░█░ Configuration ░█░
+### ▪ Configuration
 
 Model parameters can be adjusted in `shiemi/config/model_config.py`:
-
 ```python
 n_layers = 8
 n_heads = 8
@@ -111,11 +89,11 @@ vocab_size = 4000
 max_seq_length = 512
 ```
 
-## ▀█▀ License ▀█▀
+### ▫ License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## █░█ Contributing █░█
+### ▪ Contributing
 
 1. Fork the repository
 2. Create your feature branch
@@ -123,7 +101,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 4. Push to the branch
 5. Open a Pull Request
 
-## ▄▀▄ Acknowledgments ▄▀▄
+### ▫ Acknowledgments
 
 - Built with PyTorch
 - Tokenization by SentencePiece
